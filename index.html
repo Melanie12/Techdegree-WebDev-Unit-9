@@ -10,7 +10,8 @@
 
     <title>My Treehouse portfolio</title>
   </head>
-  <body class="bg-dark text-light">
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" class="bg-dark text-light">
     <!--navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary mr-0 fixed-top">
       <div class="container">
@@ -22,9 +23,7 @@
             <div class="navbar-nav">
               <a class="nav-link" href="#projects">Treehouse Projects</a>
               <a class="nav-link" href="#skills">Techdegree Skills</a>
-              <a class="nav-link" href="#Contact">Contact Me</a>
-              <a class="nav-link" href="https://github.com/Melanie12" target="_blank">My GitHub</a>
-              <a class="nav-link" href="https://www.melanie-almeida.com" target="_blank">My Blog</a>
+              <a class="nav-link" href="#button">Contact Me</a>
             </div>
           </div>
         </div>
@@ -33,20 +32,20 @@
     <!--/navbar-->
 
     <div class="container text-center">
-      <h1 class="mt-5 display-4 text-uppercase">Melanie Almeida</h1>
-      <h2 class="display-5">Treehouse Front-End Techdegree student</h2>
+      <h1 class="mt-5 display-3 text-uppercase">Melanie Almeida</h1>
+      <h2 class="display-6">Treehouse Front-End Techdegree student</h2>
       <p class="mt-5 lead text-wrap">Hello, I am a marketer learning front-end with Treehouse.<br> Welcome to my final project : building my portfolio website with <a class="text-info" href="https://getbootstrap.com/">Bootstrap.</a></p>
     </div>
 
 <!--Cards-->
   <div class="container pt-4">
-        <h2 class="display-5 mb-5 text-center" id="projects">Treehouse Projects</h2>
+    <h2  id="projects" class="display-5 mb-5 text-center">Treehouse Projects</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100 text-white bg-primary">
         <img class="card-img-top" src="img/unit-1.png">
       <div class="card-body">
-        <h5 class="card-title">Unit 1<br>My personal profile page</h5>
+        <h5 class="card-title">Unit 1</br> My personal profile page</h5>
         <p class="card-text">Customize a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web. Share your finished project on GitHub, a website used by teams of programmers to share and work on programming code.</p>
       </div>
       <div class="card-footer text-center">
@@ -152,8 +151,8 @@
 </div>
 </div>
 <!--Cards-->
-<div class="container">
-<h2 class="display-5 mb-5 text-center" id="skills">Techdegree Skills</h2>
+<div class="container mt-5">
+<h2 id="skills" class="display-5  mb-5 text-center" >Techdegree Skills</h2>
   <ul class="list-group list-group-horizontal mb-1">
     <li class="list-group-item text-white bg-primary">Unit 1</li>
     <li class="list-group-item text-primary bg-white">Introduction to HTML and CSS</li>
@@ -218,9 +217,7 @@
 
 <!-- Button trigger modal -->
 <div class="container text-center mt-5">
-  <button type="button" class="btn btn-outline-info btn-lg" data-bs-toggle="modal" data-bs-target="#contact">
-    Contact Me
-  </button>
+    <a class="btn btn-outline-info btn-lg" role="button" id="button" data-bs-toggle="modal" data-bs-target="#contact">Contact me</a>
 </div>
 
 
@@ -237,7 +234,10 @@
     <a class="nav-link" href="https://www.twitter.com/_melaniealmeida" target="_blank">Twitter</a>
   </li>
   <li>
-  <a class="nav-link" href="https://www.melanie-almeida.com" target="_blank">My Blog</a>
+  <a class="nav-link" href="https://github.com/Melanie12" target="_blank">GitHub</a>
+</li>
+  <li>
+  <a class="nav-link" href="https://www.melanie-almeida.com" target="_blank">Blog</a>
   </li>
 </ul>
   </div>
