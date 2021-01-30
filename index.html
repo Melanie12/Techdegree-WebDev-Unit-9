@@ -9,8 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/custom.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
     <title>My Treehouse portfolio</title>
   </head>
 
@@ -46,7 +48,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100 text-white bg-primary">
-        <img class="card-img-top" src="img/unit-1.png">
+        <img data-fancybox="gallery" class="card-img-top" src="img/unit-1.png">
       <div class="card-body">
         <h5 class="card-title">Unit 1</br> My personal profile page</h5>
         <p class="card-text">Customize a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web. Share your finished project on GitHub, a website used by teams of programmers to share and work on programming code.</p>
@@ -58,7 +60,7 @@
   </div>
   <div class="col">
     <div class="card h-100 text-white bg-primary">
-          <img class="card-img-top" src="img/unit-2.png">
+        <img data-fancybox="gallery" class="card-img-top" src="img/unit-2.png">
       <div class="card-body">
         <h5 class="card-title">Unit 2<br>Mobile-first Responsive Layout</h5>
         <p class="card-text">Designing web pages that look and function well on multiple screen sizes is an essential skill for a web developer. Using HTML, CSS, and responsive design, you'll create a mobile-first web page with a layout that adjusts to fit mobile phones, tablets, and desktop displays.</p>
@@ -70,7 +72,7 @@
   </div>
   <div class="col">
     <div class="card h-100 text-white bg-primary">
-        <img class="card-img-top " src="img/unit-3.png">
+        <img data-fancybox="gallery" class="card-img-top " src="img/unit-3.png">
       <div class="card-body">
         <h5 class="card-title">Unit 3<br>An online registration form</h5>
         <p class="card-text">Web forms appear everywhere online: forms allow users to order books, sign up for websites, and post to Facebook. This project challenges you to build a responsive, mobile-first registration form using a variety of HTML form elements.</p>
@@ -82,7 +84,7 @@
   </div>
   <div class="col">
   <div class="card h-100 text-white bg-primary">
-        <img class="card-img-top" src="img/unit-4.png">
+      <img data-fancybox="gallery" class="card-img-top" src="img/unit-4.png">
     <div class="card-body">
       <h5 class="card-title">Unit 4<br> Web Style Guide</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -94,7 +96,7 @@
 </div>
 <div class="col">
   <div class="card h-100 text-white bg-primary">
-    <img class="card-img-top" src="img/unit-5.png">
+    <img data-fancybox="gallery" class="card-img-top" src="img/unit-5.png">
     <div class="card-body">
       <h5 class="card-title">Unit 5<br>An interactive Photo Gallery</h5>
       <p class="card-text">Interactive image galleries are a common feature of many websites, from photo sites to e-commerce applications. Use HTML, CSS and the popular programming language JavaScript to create an interactive, searchable gallery of photos.</p>
@@ -106,7 +108,7 @@
 </div>
 <div class="col">
   <div class="card h-100 text-white bg-primary">
-    <img class="card-img-top" src="img/unit-6.png">
+    <img data-fancybox="gallery" class="card-img-top" src="img/unit-6.png">
     <div class="card-body">
       <h5 class="card-title">Unit 6<br> Game Show App</h5>
       <p class="card-text">In this project, you'll create a browser version of “Wheel of Success”, a word guessing game. You’ll use Javascript to come up with a random phrase that players will try to guess by entering different letters into the program.</p>
@@ -118,7 +120,7 @@
 </div>
 <div class="col">
   <div class="card h-100 text-white bg-primary">
-    <img class="card-img-top" src="img/unit-7.png">
+    <img data-fancybox="gallery" class="card-img-top" src="img/unit-7.png">
     <div class="card-body">
       <h5 class="card-title">Unit 7<br> WebApp Dashboard</h5>
       <p class="card-text">Build an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.</p>
@@ -130,7 +132,7 @@
 </div>
 <div class="col">
   <div class="card h-100 text-white bg-primary">
-    <img class="card-img-top" src="img/unit-8.png">
+    <img data-fancybox="gallery" class="card-img-top" src="img/unit-8.png">
     <div class="card-body">
       <h5 class="card-title">Unit 8<br>API to an employee directory</h5>
       <p class="card-text">Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface).</p>
@@ -142,7 +144,7 @@
 </div>
 <div class="col">
   <div class="card h-100 text-white bg-primary">
-    <img class="card-img-top" src="img/unit-9.png">
+    <img data-fancybox="gallery" class="card-img-top" src="img/unit-9.png">
     <div class="card-body">
       <h5 class="card-title">Unit 9<br>Capstone Portfolio</h5>
       <p class="card-text">In this project, you'll build an online portfolio to showcase the work you've created as part of this program and any projects you've built on your own. This is your chance to show the world (and potential employers) the work you've done. In fact, the portfolio site itself is a great way to show what you can do.</p>
@@ -279,6 +281,16 @@
   </div>
 </div>
 
+<!--Script for the plugin fancybox options-->
+<script>
+$('.images').fancybox({
+	var defaults = {
+	keyboard:true,
+	arrows:true,
+	smallBtn: "auto",
+	}
+	});
+</script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -290,5 +302,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
+    <script src="js/script.js"></script>
   </body>
 </html>
